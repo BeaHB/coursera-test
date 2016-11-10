@@ -1,0 +1,39 @@
+Last login: Wed Nov  9 23:21:25 on ttys000
+Beatrizs-MBP:~ BHBarb$ ls
+AT.postflight.6700	Google Drive		Public
+Applications		Library			temp
+Desktop			Movies			test_site
+Documents		Music
+Downloads		Pictures
+Beatrizs-MBP:~ BHBarb$ cd test_site
+Beatrizs-MBP:test_site BHBarb$ le
+-bash: le: command not found
+Beatrizs-MBP:test_site BHBarb$ ls
+index.html
+Beatrizs-MBP:test_site BHBarb$ git clone https://github.com/BeaHB/coursera-test.git
+Cloning into 'coursera-test'...
+remote: Counting objects: 11, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), done.
+Beatrizs-MBP:test_site BHBarb$ ls
+coursera-test	index.html
+Beatrizs-MBP:test_site BHBarb$ cd coursera-test
+Beatrizs-MBP:coursera-test BHBarb$ ls
+README.md
+Beatrizs-MBP:coursera-test BHBarb$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Beatrizs-MBP:coursera-test BHBarb$ git checkout gh-pages
+Branch gh-pages set up to track remote branch gh-pages from origin.
+Switched to a new branch 'gh-pages'
+Beatrizs-MBP:coursera-test BHBarb$ git status
+On branch gh-pages
+Your branch is up-to-date with 'origin/gh-pages'.
+nothing to commit, working tree clean
+Beatrizs-MBP:coursera-test BHBarb$ ls
+index.html	params.json	stylesheets
+Beatrizs-MBP:coursera-test BHBarb$ mkdir site
+Beatrizs-MBP:coursera-test BHBarb$ cd site
+Beatrizs-MBP:site BHBarb$ ls
+Beatrizs-MBP:site BHBarb$ 
